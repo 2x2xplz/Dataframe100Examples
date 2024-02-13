@@ -13,3 +13,6 @@ You can quickly browse or read this project's examples [online via HTML](https:/
 Hope this is helpful!
 
 *if this is interesting/helpful, you might enjoy my KotlinConf 2023 Amsterdam presentation: [Replacing SQL with Kotlin's 'dataframe' on the Las Vegas Strip](https://www.youtube.com/watch?v=sDZWiu9nnuU)*
+
+
+*technical note: I initially experienced some compatibility issues in traditional Jupyter when utilizing the `kandy` plotting library -- the kernel is based on JVM language level 1.8 while kandy is on 11 -- I found a solution by adding the following line to %python_venv_root%/Lib/site-packages/run_kotlin_kernel/run_kernel.py , right above the `subprocess.call` line : `jar_args.append('-jvmTarget=11')`*
