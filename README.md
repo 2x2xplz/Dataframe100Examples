@@ -6,7 +6,7 @@ It is a clone of  ["SQL for Data Scientists in 100 Queries"](https://gvwilson.gi
 
 *note: the original author has evolved his project... the version that was cloned to build this project [can be found here](https://2x2xplz.github.io/sql-tutorial-100queries/)*
 
-You can quickly browse or read this project's examples online via HTML, or download the .ipynb notebook and execute it yourself interactively. It should work in a traditional Jupyter setup (browser-based, launched via Python) or, directly in IntelliJ as a Kotlin notebook.
+You can quickly browse or read this project's examples [online via HTML](https://2x2xplz.github.io/Dataframe100Examples/), or download the .ipynb notebook and execute it yourself interactively. It should work in a traditional Jupyter setup (browser-based, launched via Python) or, directly in IntelliJ as a Kotlin notebook.
 - traditional Jupyter: requires [Kotlin kernel for Jupyter](https://github.com/Kotlin/kotlin-jupyter)
 - IntelliJ: requires [Kotlin notebook plugin](https://plugins.jetbrains.com/plugin/16340-kotlin-notebook](https://blog.jetbrains.com/kotlin/2023/07/introducing-kotlin-notebook/)https://blog.jetbrains.com/kotlin/2023/07/introducing-kotlin-notebook/)
 
